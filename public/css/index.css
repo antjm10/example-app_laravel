@@ -1,0 +1,42 @@
+/* Nav */
+#navbar {
+    background: #2d3748;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-list
+{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+
+.nav-list a {
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+#navbar ul li {
+    list-style-type: none;
+}
+
+/* content */
+
+#list {
+    margin-top: 10vh;
+}
